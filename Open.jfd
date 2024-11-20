@@ -34,6 +34,7 @@ new FormModel {
 					"tabSize": 12
 					"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 10, false )
 					"editable": false
+					"wrapStyleWord": true
 				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
 					"width": 203
 					"height": 33
@@ -42,7 +43,7 @@ new FormModel {
 				} )
 			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
 				"width": 400
-				"height": 300
+				"height": 270
 				"x": 0
 				"y": 0
 			} )

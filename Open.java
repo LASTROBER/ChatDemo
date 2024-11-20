@@ -93,11 +93,12 @@ public class Open extends JFrame {
             textArea8.setTabSize(12);
             textArea8.setFont(textArea8.getFont().deriveFont(textArea8.getFont().getSize() + 10f));
             textArea8.setEditable(false);
+            textArea8.setWrapStyleWord(true);
             this2.add(textArea8);
             textArea8.setBounds(110, 75, 203, 33);
         }
         contentPane.add(this2);
-        this2.setBounds(0, 0, 400, 300);
+        this2.setBounds(0, 0, 400, 270);
 
         {
             // compute preferred size
