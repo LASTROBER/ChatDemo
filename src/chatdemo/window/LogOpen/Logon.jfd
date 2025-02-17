@@ -1,0 +1,96 @@
+JFDML JFormDesigner: "8.2.4.0.393" Java: "17.0.10" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+			"autoSize": false
+		} ) {
+			name: "this"
+			"autoRequestFocus": false
+			"resizable": false
+			add( new FormComponent( "javax.swing.JTextArea" ) {
+				name: "textArea4"
+				"text": "聊天软件注册界面"
+				"tabSize": 12
+				"font": new com.jformdesigner.model.SwingDerivedFont( null, 0, 10, false )
+				"editable": false
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 203
+				"height": 33
+				"x": 95
+				"y": 15
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.JGoodiesFormsLabel" ) {
+				name: "label1"
+				"textWithMnemonic": "用户名"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 40
+				"y": 65
+				"width": 50
+				"height": 20
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.JGoodiesFormsLabel" ) {
+				name: "label2"
+				"textWithMnemonic": "密码"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 50
+				"height": 20
+				"x": 45
+				"y": 110
+			} )
+			add( new FormComponent( "javax.swing.JPasswordField" ) {
+				name: "clientLogonPassword"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 110
+				"y": 110
+				"width": 210
+				"height": 30
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.JGoodiesFormsLabel" ) {
+				name: "label3"
+				"textWithMnemonic": "确认密码"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 65
+				"height": 20
+				"x": 35
+				"y": 155
+			} )
+			add( new FormComponent( "javax.swing.JPasswordField" ) {
+				name: "clientLogonPasswordCheck"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 210
+				"height": 30
+				"x": 110
+				"y": 155
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button5"
+				"text": "LogOn"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button5MouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 60
+				"y": 210
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button6"
+				"text": "Back"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button6MouseClicked", true ) )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 235
+				"y": 210
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "clientLogonName"
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"x": 110
+				"y": 65
+				"width": 210
+				"height": 30
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 5 )
+			"size": new java.awt.Dimension( 400, 300 )
+		} )
+	}
+}

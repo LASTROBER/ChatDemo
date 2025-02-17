@@ -1,0 +1,503 @@
+JFDML JFormDesigner: "8.2.4.0.393" Java: "17.0.10" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+			"autoSize": false
+		} ) {
+			name: "this"
+			"resizable": false
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class java.awt.CardLayout ) ) {
+				name: "panel1"
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+					"autoSize": false
+				} ) {
+					name: "InfomationPage"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label1"
+						"text": "昵称"
+						"font": new java.awt.Font( "幼圆", 0, 18 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 110
+						"y": 90
+						"width": 55
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane1"
+						add( new FormComponent( "javax.swing.JTextArea" ) {
+							name: "textArea1"
+							"font": new java.awt.Font( "幼圆", 1, 16 )
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 210
+						"y": 85
+						"width": 209
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label2"
+						"text": "性别"
+						"font": new java.awt.Font( "幼圆", 0, 18 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 110
+						"y": 130
+						"width": 55
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label3"
+						"text": "出生日期"
+						"font": new java.awt.Font( "幼圆", 0, 18 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 110
+						"y": 170
+						"width": 95
+						"height": 20
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane3"
+						add( new FormComponent( "javax.swing.JTextArea" ) {
+							name: "textArea3"
+							"font": new java.awt.Font( "幼圆", 0, 16 )
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 210
+						"y": 170
+						"width": 209
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label4"
+						"text": "邮箱"
+						"font": new java.awt.Font( "幼圆", 0, 18 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 110
+						"y": 215
+						"width": 55
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane4"
+						add( new FormComponent( "javax.swing.JTextArea" ) {
+							name: "textArea4"
+							"font": new java.awt.Font( "幼圆", 0, 16 )
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 210
+						"y": 210
+						"width": 209
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button5"
+						"text": "提交修改"
+						"font": new java.awt.Font( "幼圆", 1, 16 )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button5MouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 460
+						"y": 150
+					} )
+					add( new FormComponent( "javax.swing.JRadioButton" ) {
+						name: "radioButton1"
+						"text": "男"
+						"font": new java.awt.Font( "Microsoft YaHei UI", 0, 16 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 210
+						"y": 130
+						"width": 70
+						"height": 26
+					} )
+					add( new FormComponent( "javax.swing.JRadioButton" ) {
+						name: "radioButton3"
+						"text": "女"
+						"font": new java.awt.Font( "Microsoft YaHei UI", 0, 16 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 270
+						"y": 130
+						"width": 60
+						"height": 26
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "card1"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+					"autoSize": false
+				} ) {
+					name: "ManagePage"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label6"
+						"text": "密码修改"
+						"font": new java.awt.Font( "幼圆", 0, 36 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 255
+						"y": 15
+						"width": 225
+						"height": 110
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label7"
+						"text": "原密码"
+						"font": new java.awt.Font( "幼圆", 0, 18 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 125
+						"y": 140
+						"width": 75
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane6"
+						add( new FormComponent( "javax.swing.JTextArea" ) {
+							name: "textArea6"
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 250
+						"y": 140
+						"width": 317
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label8"
+						"text": "新密码"
+						"font": new java.awt.Font( "幼圆", 0, 18 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 125
+						"y": 195
+						"width": 75
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane7"
+						add( new FormComponent( "javax.swing.JTextArea" ) {
+							name: "textArea7"
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 250
+						"y": 190
+						"width": 317
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label9"
+						"text": "确认密码"
+						"font": new java.awt.Font( "幼圆", 0, 18 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 115
+						"y": 245
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane8"
+						add( new FormComponent( "javax.swing.JTextArea" ) {
+							name: "textArea8"
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 250
+						"y": 245
+						"width": 317
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button6"
+						"text": "确认修改"
+						"font": new java.awt.Font( "幼圆", 0, 18 )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button6MouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 460
+						"y": 305
+						"width": 128
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "card2"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+					"autoSize": false
+				} ) {
+					name: "MainPage"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label5"
+						"text": "test"
+						"font": new java.awt.Font( "Microsoft YaHei UI", 0, 30 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 225
+						"y": 140
+						"width": 120
+						"height": 100
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label12"
+						"text": "用户"
+						"font": new java.awt.Font( "华文琥珀", 2, 30 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 400
+						"y": 150
+						"width": 150
+						"height": 80
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label13"
+						"text": "欢迎使用软件"
+						"font": new java.awt.Font( "华文琥珀", 0, 48 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 190
+						"y": 230
+						"width": 350
+						"height": 100
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "card3"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "FriendsPage"
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "userName"
+						"cursor": new java.awt.Cursor( 2 )
+						"focusable": false
+						"editable": false
+						"enabled": false
+						"font": new java.awt.Font( "华文琥珀", 0, 48 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 380
+						"y": 205
+						"width": 265
+						"height": 45
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane10"
+						add( new FormComponent( "javax.swing.JList" ) {
+							name: "friendsState"
+							"enabled": false
+							"minimumSize": sfield com.jformdesigner.model.FormObject NULL_VALUE
+							"maximumSize": sfield com.jformdesigner.model.FormObject NULL_VALUE
+							"font": new java.awt.Font( "幼圆", 1, 20 )
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 90
+						"y": 120
+						"width": 235
+						"height": 265
+					} )
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label10"
+						"text": "好友状态"
+						"font": new java.awt.Font( "幼圆", 1, 28 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 125
+						"y": 65
+						"width": 165
+						"height": 30
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "card4"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "ChatPage"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label11"
+						"text": "发送给谁"
+						"font": new java.awt.Font( "幼圆", 1, 16 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 75
+						"height": 25
+						"x": 55
+						"y": 30
+					} )
+					add( new FormComponent( "javax.swing.JTextField" ) {
+						name: "textField1"
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 80
+						"height": 25
+						"x": 150
+						"y": 30
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane11"
+						add( new FormComponent( "javax.swing.JTextArea" ) {
+							name: "textArea10"
+							"editable": false
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 615
+						"height": 165
+						"x": 70
+						"y": 60
+					} )
+					add( new FormContainer( "javax.swing.JMenuBar", new FormLayoutManager( class javax.swing.JMenuBar ) ) {
+						name: "menuBar3"
+						add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+							name: "menu5"
+							"text": "录屏与截图"
+							"font": new java.awt.Font( "幼圆", 0, 16 )
+							add( new FormComponent( "javax.swing.JMenuItem" ) {
+								name: "menuItem10"
+								"text": "录屏"
+								"font": new java.awt.Font( "幼圆", 0, 14 )
+							} )
+							add( new FormComponent( "javax.swing.JMenuItem" ) {
+								name: "menuItem11"
+								"text": "截图"
+								"font": new java.awt.Font( "幼圆", 0, 14 )
+								addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "menuItem11", true ) )
+							} )
+							add( new FormComponent( "javax.swing.JRadioButton" ) {
+								name: "radioButton2"
+								"text": "隐藏窗口"
+								"font": new java.awt.Font( "幼圆", 0, 14 )
+							} )
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "button13"
+							"text": "文件传输"
+							addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button13MouseClicked", true ) )
+						} )
+						add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+							name: "menu1"
+							"text": "字体选择"
+							add( new FormComponent( "javax.swing.JButton" ) {
+								name: "button2"
+								"text": "黑体"
+								addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button2MouseClicked", true ) )
+							} )
+							add( new FormComponent( "javax.swing.JButton" ) {
+								name: "button3"
+								"text": "宋体"
+								addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button3MouseClicked", true ) )
+							} )
+							add( new FormComponent( "javax.swing.JButton" ) {
+								name: "button4"
+								"text": "楷体"
+								addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button4MouseClicked", true ) )
+							} )
+						} )
+						add( new FormComponent( "javax.swing.JComboBox" ) {
+							name: "comboBox4"
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "button14"
+							"text": "加粗"
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "button15"
+							"text": "斜体"
+						} )
+						add( new FormComponent( "javax.swing.JButton" ) {
+							name: "button16"
+							"text": "窗体抖动"
+							"actionCommand": "抖动"
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 673
+						"x": 45
+						"y": 250
+					} )
+					add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+						name: "scrollPane12"
+						add( new FormComponent( "javax.swing.JTextArea" ) {
+							name: "textArea11"
+						} )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 615
+						"height": 155
+						"x": 70
+						"y": 300
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button8"
+						"text": "发送"
+						"font": new java.awt.Font( "幼圆", 1, 16 )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button8MouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"width": 75
+						"height": 30
+						"x": 505
+						"y": 480
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button7"
+						"text": "返回"
+						"font": new java.awt.Font( "幼圆", 1, 16 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 610
+						"y": 480
+						"height": 30
+						"width": 75
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "card5"
+				} )
+				add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+					name: "panel2"
+					add( new FormComponent( "javax.swing.JLabel" ) {
+						name: "label14"
+						"text": "您是否要退出......"
+						"font": new java.awt.Font( "Microsoft YaHei UI", 0, 48 )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 100
+						"y": 110
+						"width": 395
+						"height": 115
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button1"
+						"text": "确定"
+						"font": new java.awt.Font( "Microsoft YaHei UI", 0, 22 )
+						addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button1MouseClicked", true ) )
+					}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+						"x": 280
+						"y": 320
+						"width": 130
+					} )
+				}, new FormLayoutConstraints( class java.lang.String ) {
+					"value": "card6"
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 765
+				"height": 535
+				"x": 0
+				"y": 0
+			} )
+			menuBar: new FormContainer( "javax.swing.JMenuBar", new FormLayoutManager( class javax.swing.JMenuBar ) ) {
+				name: "menuBar1"
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "usermenu"
+					"text": "设置"
+					"font": new java.awt.Font( "幼圆", 1, 20 )
+					add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+						name: "menu3"
+						"text": "用户名"
+						"font": new java.awt.Font( "华文宋体", 0, 16 )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "Information"
+							"text": "个人信息"
+							"font": new java.awt.Font( "幼圆", 0, 14 )
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "menuItem7", true ) )
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "Manage"
+							"text": "账号管理"
+							"font": new java.awt.Font( "幼圆", 0, 14 )
+							addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "menuItem8", true ) )
+						} )
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "Main"
+						"text": "主界面"
+						"font": new java.awt.Font( "华文宋体", 0, 16 )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "menuItem9", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "Friends"
+						"text": "联系人"
+						"font": new java.awt.Font( "华文宋体", 0, 16 )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "menuItem1", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "Chat"
+						"text": "聊天窗口"
+						"actionCommand": "聊天窗口"
+						"font": new java.awt.Font( "华文宋体", 0, 16 )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "menuItem5", true ) )
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem6"
+						"text": "登出"
+						"font": new java.awt.Font( "华文宋体", 0, 16 )
+						addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "menuItem6", true ) )
+					} )
+				} )
+			}
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 15, 15 )
+			"size": new java.awt.Dimension( 770, 585 )
+		} )
+	}
+}

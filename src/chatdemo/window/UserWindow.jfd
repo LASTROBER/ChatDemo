@@ -1,0 +1,128 @@
+JFDML JFormDesigner: "8.2.4.0.393" Java: "17.0.10" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) {
+			"autoSize": false
+		} ) {
+			name: "this"
+			"resizable": false
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class com.jformdesigner.runtime.NullLayout ) ) {
+				name: "panel1"
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "发送给谁"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 75
+					"height": 25
+					"x": 30
+					"y": 40
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField1"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 80
+					"height": 25
+					"x": 115
+					"y": 35
+				} )
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "scrollPane7"
+					add( new FormComponent( "javax.swing.JTextArea" ) {
+						name: "textArea7"
+						"editable": false
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 615
+					"height": 165
+					"x": 20
+					"y": 70
+				} )
+				add( new FormContainer( "javax.swing.JMenuBar", new FormLayoutManager( class javax.swing.JMenuBar ) ) {
+					name: "menuBar3"
+					add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+						name: "menu5"
+						"text": "录屏与截图"
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "menuItem8"
+							"text": "录屏"
+						} )
+						add( new FormComponent( "javax.swing.JMenuItem" ) {
+							name: "menuItem9"
+							"text": "截图"
+						} )
+						add( new FormComponent( "javax.swing.JRadioButton" ) {
+							name: "radioButton2"
+							"text": "隐藏窗口"
+						} )
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button13"
+						"text": "文件传输"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "comboBox3"
+					} )
+					add( new FormComponent( "javax.swing.JComboBox" ) {
+						name: "comboBox4"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button14"
+						"text": "加粗"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button15"
+						"text": "斜体"
+					} )
+					add( new FormComponent( "javax.swing.JButton" ) {
+						name: "button16"
+						"text": "窗体抖动"
+						"actionCommand": "抖动"
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 673
+					"x": 0
+					"y": 250
+				} )
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "scrollPane4"
+					add( new FormComponent( "javax.swing.JTextArea" ) {
+						name: "textArea6"
+					} )
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 615
+					"height": 155
+					"x": 20
+					"y": 305
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button8"
+					"text": "发送"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"width": 75
+					"height": 30
+					"x": 460
+					"y": 465
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button7"
+					"text": "返回"
+				}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+					"x": 550
+					"y": 465
+					"height": 30
+					"width": 75
+				} )
+			}, new FormLayoutConstraints( class com.jformdesigner.runtime.NullConstraints ) {
+				"width": 675
+				"height": 525
+				"x": 15
+				"y": -15
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 15, 25 )
+			"size": new java.awt.Dimension( 675, 525 )
+		} )
+	}
+}
